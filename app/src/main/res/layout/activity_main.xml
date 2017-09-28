@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cloudist.cc.circularprogressview.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_drawable"
+            android:layout_width="261px"
+            android:layout_height="261px"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/iv_drawable2"
+            android:layout_width="267px"
+            android:layout_height="267px"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_style_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_style_1_text" />
+
+    <Button
+        android:id="@+id/bt_style_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_style_2_text" />
+
+    <Button
+        android:id="@+id/bt_style_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_style_3_text" />
+
+    <Button
+        android:id="@+id/bt_style_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_style_4_text" />
+
+
+</LinearLayout>
